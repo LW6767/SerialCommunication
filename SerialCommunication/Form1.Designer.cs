@@ -115,10 +115,9 @@
             this.radioButtonVerbonden.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButtonVerbonden.AutoCheck = false;
             this.radioButtonVerbonden.AutoSize = true;
-            this.radioButtonVerbonden.Location = new System.Drawing.Point(968, 17);
-            this.radioButtonVerbonden.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonVerbonden.Location = new System.Drawing.Point(720, 14);
             this.radioButtonVerbonden.Name = "radioButtonVerbonden";
-            this.radioButtonVerbonden.Size = new System.Drawing.Size(93, 20);
+            this.radioButtonVerbonden.Size = new System.Drawing.Size(76, 17);
             this.radioButtonVerbonden.TabIndex = 8;
             this.radioButtonVerbonden.TabStop = true;
             this.radioButtonVerbonden.Text = "verbonden";
@@ -126,10 +125,9 @@
             // 
             // buttonConnect
             // 
-            this.buttonConnect.Location = new System.Drawing.Point(256, 14);
-            this.buttonConnect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonConnect.Location = new System.Drawing.Point(192, 11);
             this.buttonConnect.Name = "buttonConnect";
-            this.buttonConnect.Size = new System.Drawing.Size(100, 28);
+            this.buttonConnect.Size = new System.Drawing.Size(75, 23);
             this.buttonConnect.TabIndex = 7;
             this.buttonConnect.Text = "Connect";
             this.buttonConnect.UseVisualStyleBackColor = true;
@@ -138,10 +136,9 @@
             // labelPoort
             // 
             this.labelPoort.AutoSize = true;
-            this.labelPoort.Location = new System.Drawing.Point(16, 20);
-            this.labelPoort.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelPoort.Location = new System.Drawing.Point(12, 16);
             this.labelPoort.Name = "labelPoort";
-            this.labelPoort.Size = new System.Drawing.Size(39, 16);
+            this.labelPoort.Size = new System.Drawing.Size(32, 13);
             this.labelPoort.TabIndex = 6;
             this.labelPoort.Text = "Poort";
             // 
@@ -149,10 +146,9 @@
             // 
             this.comboBoxPoort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPoort.FormattingEnabled = true;
-            this.comboBoxPoort.Location = new System.Drawing.Point(67, 16);
-            this.comboBoxPoort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxPoort.Location = new System.Drawing.Point(50, 13);
             this.comboBoxPoort.Name = "comboBoxPoort";
-            this.comboBoxPoort.Size = new System.Drawing.Size(160, 24);
+            this.comboBoxPoort.Size = new System.Drawing.Size(121, 21);
             this.comboBoxPoort.TabIndex = 5;
             this.comboBoxPoort.DropDown += new System.EventHandler(this.cboPoort_DropDown);
             // 
@@ -167,11 +163,10 @@
             this.tabControl.Controls.Add(this.tabPageOefening3);
             this.tabControl.Controls.Add(this.tabPageOefening4);
             this.tabControl.Controls.Add(this.tabPageOefening5);
-            this.tabControl.Location = new System.Drawing.Point(16, 65);
-            this.tabControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl.Location = new System.Drawing.Point(12, 53);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(1045, 513);
+            this.tabControl.Size = new System.Drawing.Size(784, 417);
             this.tabControl.TabIndex = 9;
             // 
             // tabPageInstellingen
@@ -188,11 +183,10 @@
             this.tabPageInstellingen.Controls.Add(this.numericUpDownDatabits);
             this.tabPageInstellingen.Controls.Add(this.comboBoxBaudrate);
             this.tabPageInstellingen.Controls.Add(this.label4);
-            this.tabPageInstellingen.Location = new System.Drawing.Point(4, 25);
-            this.tabPageInstellingen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageInstellingen.Location = new System.Drawing.Point(4, 22);
             this.tabPageInstellingen.Name = "tabPageInstellingen";
-            this.tabPageInstellingen.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPageInstellingen.Size = new System.Drawing.Size(1037, 484);
+            this.tabPageInstellingen.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPageInstellingen.Size = new System.Drawing.Size(776, 391);
             this.tabPageInstellingen.TabIndex = 2;
             this.tabPageInstellingen.Text = "Instellingen";
             this.tabPageInstellingen.UseVisualStyleBackColor = true;
@@ -200,10 +194,9 @@
             // checkBoxDtrEnable
             // 
             this.checkBoxDtrEnable.AutoSize = true;
-            this.checkBoxDtrEnable.Location = new System.Drawing.Point(529, 402);
-            this.checkBoxDtrEnable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxDtrEnable.Location = new System.Drawing.Point(397, 327);
             this.checkBoxDtrEnable.Name = "checkBoxDtrEnable";
-            this.checkBoxDtrEnable.Size = new System.Drawing.Size(104, 20);
+            this.checkBoxDtrEnable.Size = new System.Drawing.Size(85, 17);
             this.checkBoxDtrEnable.TabIndex = 11;
             this.checkBoxDtrEnable.Text = "DTR Enable";
             this.checkBoxDtrEnable.UseVisualStyleBackColor = true;
@@ -211,10 +204,9 @@
             // checkBoxRtsEnable
             // 
             this.checkBoxRtsEnable.AutoSize = true;
-            this.checkBoxRtsEnable.Location = new System.Drawing.Point(140, 402);
-            this.checkBoxRtsEnable.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxRtsEnable.Location = new System.Drawing.Point(105, 327);
             this.checkBoxRtsEnable.Name = "checkBoxRtsEnable";
-            this.checkBoxRtsEnable.Size = new System.Drawing.Size(103, 20);
+            this.checkBoxRtsEnable.Size = new System.Drawing.Size(84, 17);
             this.checkBoxRtsEnable.TabIndex = 10;
             this.checkBoxRtsEnable.Text = "RTS Enable";
             this.checkBoxRtsEnable.UseVisualStyleBackColor = true;
@@ -222,10 +214,9 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(52, 332);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(39, 270);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(77, 16);
+            this.label8.Size = new System.Drawing.Size(62, 13);
             this.label8.TabIndex = 9;
             this.label8.Text = "Handshake";
             // 
@@ -235,21 +226,18 @@
             this.groupBox3.Controls.Add(this.radioButtonHandshakeRTSXonXoff);
             this.groupBox3.Controls.Add(this.radioButtonHandshakeRTS);
             this.groupBox3.Controls.Add(this.radioButtonHandshakeNone);
-            this.groupBox3.Location = new System.Drawing.Point(140, 306);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Location = new System.Drawing.Point(105, 249);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox3.Size = new System.Drawing.Size(503, 60);
+            this.groupBox3.Size = new System.Drawing.Size(377, 49);
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             // 
             // radioButtonHandshakeXonXoff
             // 
             this.radioButtonHandshakeXonXoff.AutoSize = true;
-            this.radioButtonHandshakeXonXoff.Location = new System.Drawing.Point(396, 23);
-            this.radioButtonHandshakeXonXoff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonHandshakeXonXoff.Location = new System.Drawing.Point(297, 19);
             this.radioButtonHandshakeXonXoff.Name = "radioButtonHandshakeXonXoff";
-            this.radioButtonHandshakeXonXoff.Size = new System.Drawing.Size(73, 20);
+            this.radioButtonHandshakeXonXoff.Size = new System.Drawing.Size(63, 17);
             this.radioButtonHandshakeXonXoff.TabIndex = 3;
             this.radioButtonHandshakeXonXoff.TabStop = true;
             this.radioButtonHandshakeXonXoff.Text = "XonXoff";
@@ -258,10 +246,9 @@
             // radioButtonHandshakeRTSXonXoff
             // 
             this.radioButtonHandshakeRTSXonXoff.AutoSize = true;
-            this.radioButtonHandshakeRTSXonXoff.Location = new System.Drawing.Point(239, 23);
-            this.radioButtonHandshakeRTSXonXoff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonHandshakeRTSXonXoff.Location = new System.Drawing.Point(179, 19);
             this.radioButtonHandshakeRTSXonXoff.Name = "radioButtonHandshakeRTSXonXoff";
-            this.radioButtonHandshakeRTSXonXoff.Size = new System.Drawing.Size(101, 20);
+            this.radioButtonHandshakeRTSXonXoff.Size = new System.Drawing.Size(85, 17);
             this.radioButtonHandshakeRTSXonXoff.TabIndex = 2;
             this.radioButtonHandshakeRTSXonXoff.TabStop = true;
             this.radioButtonHandshakeRTSXonXoff.Text = "RTSXonXoff";
@@ -270,10 +257,9 @@
             // radioButtonHandshakeRTS
             // 
             this.radioButtonHandshakeRTS.AutoSize = true;
-            this.radioButtonHandshakeRTS.Location = new System.Drawing.Point(132, 23);
-            this.radioButtonHandshakeRTS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonHandshakeRTS.Location = new System.Drawing.Point(99, 19);
             this.radioButtonHandshakeRTS.Name = "radioButtonHandshakeRTS";
-            this.radioButtonHandshakeRTS.Size = new System.Drawing.Size(56, 20);
+            this.radioButtonHandshakeRTS.Size = new System.Drawing.Size(47, 17);
             this.radioButtonHandshakeRTS.TabIndex = 1;
             this.radioButtonHandshakeRTS.TabStop = true;
             this.radioButtonHandshakeRTS.Text = "RTS";
@@ -283,10 +269,9 @@
             // 
             this.radioButtonHandshakeNone.AutoSize = true;
             this.radioButtonHandshakeNone.Checked = true;
-            this.radioButtonHandshakeNone.Location = new System.Drawing.Point(20, 23);
-            this.radioButtonHandshakeNone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonHandshakeNone.Location = new System.Drawing.Point(15, 19);
             this.radioButtonHandshakeNone.Name = "radioButtonHandshakeNone";
-            this.radioButtonHandshakeNone.Size = new System.Drawing.Size(61, 20);
+            this.radioButtonHandshakeNone.Size = new System.Drawing.Size(51, 17);
             this.radioButtonHandshakeNone.TabIndex = 0;
             this.radioButtonHandshakeNone.TabStop = true;
             this.radioButtonHandshakeNone.Text = "None";
@@ -295,10 +280,9 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(52, 246);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(39, 200);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 16);
+            this.label7.Size = new System.Drawing.Size(48, 13);
             this.label7.TabIndex = 7;
             this.label7.Text = "Stop bits";
             // 
@@ -308,21 +292,18 @@
             this.groupBox2.Controls.Add(this.radioButtonStopbitsOnePointFive);
             this.groupBox2.Controls.Add(this.radioButtonStopbitsOne);
             this.groupBox2.Controls.Add(this.radioButtonStopbitsNone);
-            this.groupBox2.Location = new System.Drawing.Point(140, 220);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(105, 179);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(503, 60);
+            this.groupBox2.Size = new System.Drawing.Size(377, 49);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             // 
             // radioButtonStopbitsTwo
             // 
             this.radioButtonStopbitsTwo.AutoSize = true;
-            this.radioButtonStopbitsTwo.Location = new System.Drawing.Point(311, 23);
-            this.radioButtonStopbitsTwo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonStopbitsTwo.Location = new System.Drawing.Point(233, 19);
             this.radioButtonStopbitsTwo.Name = "radioButtonStopbitsTwo";
-            this.radioButtonStopbitsTwo.Size = new System.Drawing.Size(35, 20);
+            this.radioButtonStopbitsTwo.Size = new System.Drawing.Size(31, 17);
             this.radioButtonStopbitsTwo.TabIndex = 3;
             this.radioButtonStopbitsTwo.TabStop = true;
             this.radioButtonStopbitsTwo.Text = "2";
@@ -331,10 +312,9 @@
             // radioButtonStopbitsOnePointFive
             // 
             this.radioButtonStopbitsOnePointFive.AutoSize = true;
-            this.radioButtonStopbitsOnePointFive.Location = new System.Drawing.Point(211, 23);
-            this.radioButtonStopbitsOnePointFive.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonStopbitsOnePointFive.Location = new System.Drawing.Point(158, 19);
             this.radioButtonStopbitsOnePointFive.Name = "radioButtonStopbitsOnePointFive";
-            this.radioButtonStopbitsOnePointFive.Size = new System.Drawing.Size(45, 20);
+            this.radioButtonStopbitsOnePointFive.Size = new System.Drawing.Size(40, 17);
             this.radioButtonStopbitsOnePointFive.TabIndex = 2;
             this.radioButtonStopbitsOnePointFive.TabStop = true;
             this.radioButtonStopbitsOnePointFive.Text = "1.5";
@@ -344,10 +324,9 @@
             // 
             this.radioButtonStopbitsOne.AutoSize = true;
             this.radioButtonStopbitsOne.Checked = true;
-            this.radioButtonStopbitsOne.Location = new System.Drawing.Point(119, 23);
-            this.radioButtonStopbitsOne.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonStopbitsOne.Location = new System.Drawing.Point(89, 19);
             this.radioButtonStopbitsOne.Name = "radioButtonStopbitsOne";
-            this.radioButtonStopbitsOne.Size = new System.Drawing.Size(35, 20);
+            this.radioButtonStopbitsOne.Size = new System.Drawing.Size(31, 17);
             this.radioButtonStopbitsOne.TabIndex = 1;
             this.radioButtonStopbitsOne.TabStop = true;
             this.radioButtonStopbitsOne.Text = "1";
@@ -356,10 +335,9 @@
             // radioButtonStopbitsNone
             // 
             this.radioButtonStopbitsNone.AutoSize = true;
-            this.radioButtonStopbitsNone.Location = new System.Drawing.Point(20, 23);
-            this.radioButtonStopbitsNone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonStopbitsNone.Location = new System.Drawing.Point(15, 19);
             this.radioButtonStopbitsNone.Name = "radioButtonStopbitsNone";
-            this.radioButtonStopbitsNone.Size = new System.Drawing.Size(35, 20);
+            this.radioButtonStopbitsNone.Size = new System.Drawing.Size(31, 17);
             this.radioButtonStopbitsNone.TabIndex = 0;
             this.radioButtonStopbitsNone.TabStop = true;
             this.radioButtonStopbitsNone.Text = "0";
@@ -368,10 +346,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(52, 167);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(39, 136);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 16);
+            this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "Pariteit";
             // 
@@ -382,21 +359,18 @@
             this.groupBox1.Controls.Add(this.radioButtonParityNone);
             this.groupBox1.Controls.Add(this.radioButtonParityOdd);
             this.groupBox1.Controls.Add(this.radioButtonParityEven);
-            this.groupBox1.Location = new System.Drawing.Point(140, 142);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(105, 115);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(503, 60);
+            this.groupBox1.Size = new System.Drawing.Size(377, 49);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 
             // radioButtonParitySpace
             // 
             this.radioButtonParitySpace.AutoSize = true;
-            this.radioButtonParitySpace.Location = new System.Drawing.Point(408, 23);
-            this.radioButtonParitySpace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonParitySpace.Location = new System.Drawing.Point(306, 19);
             this.radioButtonParitySpace.Name = "radioButtonParitySpace";
-            this.radioButtonParitySpace.Size = new System.Drawing.Size(68, 20);
+            this.radioButtonParitySpace.Size = new System.Drawing.Size(56, 17);
             this.radioButtonParitySpace.TabIndex = 4;
             this.radioButtonParitySpace.TabStop = true;
             this.radioButtonParitySpace.Text = "Space";
@@ -405,10 +379,9 @@
             // radioButtonParityMark
             // 
             this.radioButtonParityMark.AutoSize = true;
-            this.radioButtonParityMark.Location = new System.Drawing.Point(311, 23);
-            this.radioButtonParityMark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonParityMark.Location = new System.Drawing.Point(233, 19);
             this.radioButtonParityMark.Name = "radioButtonParityMark";
-            this.radioButtonParityMark.Size = new System.Drawing.Size(58, 20);
+            this.radioButtonParityMark.Size = new System.Drawing.Size(49, 17);
             this.radioButtonParityMark.TabIndex = 3;
             this.radioButtonParityMark.TabStop = true;
             this.radioButtonParityMark.Text = "Mark";
@@ -418,10 +391,9 @@
             // 
             this.radioButtonParityNone.AutoSize = true;
             this.radioButtonParityNone.Checked = true;
-            this.radioButtonParityNone.Location = new System.Drawing.Point(211, 23);
-            this.radioButtonParityNone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonParityNone.Location = new System.Drawing.Point(158, 19);
             this.radioButtonParityNone.Name = "radioButtonParityNone";
-            this.radioButtonParityNone.Size = new System.Drawing.Size(61, 20);
+            this.radioButtonParityNone.Size = new System.Drawing.Size(51, 17);
             this.radioButtonParityNone.TabIndex = 2;
             this.radioButtonParityNone.TabStop = true;
             this.radioButtonParityNone.Text = "None";
@@ -430,10 +402,9 @@
             // radioButtonParityOdd
             // 
             this.radioButtonParityOdd.AutoSize = true;
-            this.radioButtonParityOdd.Location = new System.Drawing.Point(119, 23);
-            this.radioButtonParityOdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonParityOdd.Location = new System.Drawing.Point(89, 19);
             this.radioButtonParityOdd.Name = "radioButtonParityOdd";
-            this.radioButtonParityOdd.Size = new System.Drawing.Size(54, 20);
+            this.radioButtonParityOdd.Size = new System.Drawing.Size(45, 17);
             this.radioButtonParityOdd.TabIndex = 1;
             this.radioButtonParityOdd.TabStop = true;
             this.radioButtonParityOdd.Text = "Odd";
@@ -442,10 +413,9 @@
             // radioButtonParityEven
             // 
             this.radioButtonParityEven.AutoSize = true;
-            this.radioButtonParityEven.Location = new System.Drawing.Point(20, 23);
-            this.radioButtonParityEven.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonParityEven.Location = new System.Drawing.Point(15, 19);
             this.radioButtonParityEven.Name = "radioButtonParityEven";
-            this.radioButtonParityEven.Size = new System.Drawing.Size(59, 20);
+            this.radioButtonParityEven.Size = new System.Drawing.Size(50, 17);
             this.radioButtonParityEven.TabIndex = 0;
             this.radioButtonParityEven.TabStop = true;
             this.radioButtonParityEven.Text = "Even";
@@ -454,17 +424,15 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(52, 94);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(39, 76);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 16);
+            this.label5.Size = new System.Drawing.Size(46, 13);
             this.label5.TabIndex = 3;
             this.label5.Text = "Databits";
             // 
             // numericUpDownDatabits
             // 
-            this.numericUpDownDatabits.Location = new System.Drawing.Point(140, 91);
-            this.numericUpDownDatabits.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownDatabits.Location = new System.Drawing.Point(105, 74);
             this.numericUpDownDatabits.Maximum = new decimal(new int[] {
             9,
             0,
@@ -476,7 +444,7 @@
             0,
             0});
             this.numericUpDownDatabits.Name = "numericUpDownDatabits";
-            this.numericUpDownDatabits.Size = new System.Drawing.Size(161, 22);
+            this.numericUpDownDatabits.Size = new System.Drawing.Size(121, 20);
             this.numericUpDownDatabits.TabIndex = 2;
             this.numericUpDownDatabits.Value = new decimal(new int[] {
             8,
@@ -504,19 +472,17 @@
             "500000",
             "1000000",
             "2000000"});
-            this.comboBoxBaudrate.Location = new System.Drawing.Point(140, 38);
-            this.comboBoxBaudrate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxBaudrate.Location = new System.Drawing.Point(105, 31);
             this.comboBoxBaudrate.Name = "comboBoxBaudrate";
-            this.comboBoxBaudrate.Size = new System.Drawing.Size(160, 24);
+            this.comboBoxBaudrate.Size = new System.Drawing.Size(121, 21);
             this.comboBoxBaudrate.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(52, 42);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(39, 34);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 16);
+            this.label4.Size = new System.Drawing.Size(50, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "Baudrate";
             // 
@@ -527,11 +493,10 @@
             this.tabPageOefening1.Controls.Add(this.checkBoxDigital4);
             this.tabPageOefening1.Controls.Add(this.checkBoxDigital3);
             this.tabPageOefening1.Controls.Add(this.checkBoxDigital2);
-            this.tabPageOefening1.Location = new System.Drawing.Point(4, 25);
-            this.tabPageOefening1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageOefening1.Location = new System.Drawing.Point(4, 22);
             this.tabPageOefening1.Name = "tabPageOefening1";
-            this.tabPageOefening1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPageOefening1.Size = new System.Drawing.Size(1037, 484);
+            this.tabPageOefening1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPageOefening1.Size = new System.Drawing.Size(776, 391);
             this.tabPageOefening1.TabIndex = 0;
             this.tabPageOefening1.Text = "Oefening 1";
             this.tabPageOefening1.UseVisualStyleBackColor = true;
@@ -539,10 +504,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SerialCommunication.Properties.Resources.digital_out;
-            this.pictureBox1.Location = new System.Drawing.Point(227, 21);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(170, 17);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(845, 430);
+            this.pictureBox1.Size = new System.Drawing.Size(634, 349);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -550,10 +514,9 @@
             // checkBoxDigital4
             // 
             this.checkBoxDigital4.AutoSize = true;
-            this.checkBoxDigital4.Location = new System.Drawing.Point(45, 224);
-            this.checkBoxDigital4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxDigital4.Location = new System.Drawing.Point(34, 182);
             this.checkBoxDigital4.Name = "checkBoxDigital4";
-            this.checkBoxDigital4.Size = new System.Drawing.Size(77, 20);
+            this.checkBoxDigital4.Size = new System.Drawing.Size(64, 17);
             this.checkBoxDigital4.TabIndex = 2;
             this.checkBoxDigital4.Text = "Digital 4";
             this.checkBoxDigital4.UseVisualStyleBackColor = true;
@@ -561,10 +524,9 @@
             // checkBoxDigital3
             // 
             this.checkBoxDigital3.AutoSize = true;
-            this.checkBoxDigital3.Location = new System.Drawing.Point(44, 196);
-            this.checkBoxDigital3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxDigital3.Location = new System.Drawing.Point(33, 159);
             this.checkBoxDigital3.Name = "checkBoxDigital3";
-            this.checkBoxDigital3.Size = new System.Drawing.Size(77, 20);
+            this.checkBoxDigital3.Size = new System.Drawing.Size(64, 17);
             this.checkBoxDigital3.TabIndex = 1;
             this.checkBoxDigital3.Text = "Digital 3";
             this.checkBoxDigital3.UseVisualStyleBackColor = true;
@@ -572,10 +534,9 @@
             // checkBoxDigital2
             // 
             this.checkBoxDigital2.AutoSize = true;
-            this.checkBoxDigital2.Location = new System.Drawing.Point(44, 166);
-            this.checkBoxDigital2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxDigital2.Location = new System.Drawing.Point(33, 135);
             this.checkBoxDigital2.Name = "checkBoxDigital2";
-            this.checkBoxDigital2.Size = new System.Drawing.Size(77, 20);
+            this.checkBoxDigital2.Size = new System.Drawing.Size(64, 17);
             this.checkBoxDigital2.TabIndex = 0;
             this.checkBoxDigital2.Text = "Digital 2";
             this.checkBoxDigital2.UseVisualStyleBackColor = true;
@@ -589,11 +550,10 @@
             this.tabPageOefening2.Controls.Add(this.label1);
             this.tabPageOefening2.Controls.Add(this.trackBarPWM9);
             this.tabPageOefening2.Controls.Add(this.pictureBox2);
-            this.tabPageOefening2.Location = new System.Drawing.Point(4, 25);
-            this.tabPageOefening2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageOefening2.Location = new System.Drawing.Point(4, 22);
             this.tabPageOefening2.Name = "tabPageOefening2";
-            this.tabPageOefening2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPageOefening2.Size = new System.Drawing.Size(1037, 484);
+            this.tabPageOefening2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPageOefening2.Size = new System.Drawing.Size(776, 391);
             this.tabPageOefening2.TabIndex = 1;
             this.tabPageOefening2.Text = "Oefening 2";
             this.tabPageOefening2.UseVisualStyleBackColor = true;
@@ -601,73 +561,66 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(549, 414);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(412, 336);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 16);
+            this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "PWM 11";
             // 
             // trackBarPWM11
             // 
             this.trackBarPWM11.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.trackBarPWM11.Location = new System.Drawing.Point(640, 409);
-            this.trackBarPWM11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.trackBarPWM11.Location = new System.Drawing.Point(480, 332);
             this.trackBarPWM11.Maximum = 255;
             this.trackBarPWM11.Name = "trackBarPWM11";
-            this.trackBarPWM11.Size = new System.Drawing.Size(329, 56);
+            this.trackBarPWM11.Size = new System.Drawing.Size(247, 45);
             this.trackBarPWM11.TabIndex = 4;
             this.trackBarPWM11.TickStyle = System.Windows.Forms.TickStyle.None;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(549, 368);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(412, 299);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 16);
+            this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "PWM 10";
             // 
             // trackBarPWM10
             // 
             this.trackBarPWM10.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.trackBarPWM10.Location = new System.Drawing.Point(640, 363);
-            this.trackBarPWM10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.trackBarPWM10.Location = new System.Drawing.Point(480, 295);
             this.trackBarPWM10.Maximum = 255;
             this.trackBarPWM10.Name = "trackBarPWM10";
-            this.trackBarPWM10.Size = new System.Drawing.Size(329, 56);
+            this.trackBarPWM10.Size = new System.Drawing.Size(247, 45);
             this.trackBarPWM10.TabIndex = 2;
             this.trackBarPWM10.TickStyle = System.Windows.Forms.TickStyle.None;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(549, 321);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(412, 261);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 16);
+            this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "PWM 9";
             // 
             // trackBarPWM9
             // 
             this.trackBarPWM9.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.trackBarPWM9.Location = new System.Drawing.Point(640, 316);
-            this.trackBarPWM9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.trackBarPWM9.Location = new System.Drawing.Point(480, 257);
             this.trackBarPWM9.Maximum = 255;
             this.trackBarPWM9.Name = "trackBarPWM9";
-            this.trackBarPWM9.Size = new System.Drawing.Size(329, 56);
+            this.trackBarPWM9.Size = new System.Drawing.Size(247, 45);
             this.trackBarPWM9.TabIndex = 0;
             this.trackBarPWM9.TickStyle = System.Windows.Forms.TickStyle.None;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::SerialCommunication.Properties.Resources.analog_out;
-            this.pictureBox2.Location = new System.Drawing.Point(36, 20);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(27, 16);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(813, 430);
+            this.pictureBox2.Size = new System.Drawing.Size(610, 349);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -678,11 +631,10 @@
             this.tabPageOefening3.Controls.Add(this.radioButtonDigital6);
             this.tabPageOefening3.Controls.Add(this.radioButtonDigital5);
             this.tabPageOefening3.Controls.Add(this.pictureBox3);
-            this.tabPageOefening3.Location = new System.Drawing.Point(4, 25);
-            this.tabPageOefening3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageOefening3.Location = new System.Drawing.Point(4, 22);
             this.tabPageOefening3.Name = "tabPageOefening3";
-            this.tabPageOefening3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPageOefening3.Size = new System.Drawing.Size(1037, 484);
+            this.tabPageOefening3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPageOefening3.Size = new System.Drawing.Size(776, 391);
             this.tabPageOefening3.TabIndex = 3;
             this.tabPageOefening3.Text = "Oefening 3";
             this.tabPageOefening3.UseVisualStyleBackColor = true;
@@ -691,10 +643,9 @@
             // 
             this.radioButtonDigital7.AutoCheck = false;
             this.radioButtonDigital7.AutoSize = true;
-            this.radioButtonDigital7.Location = new System.Drawing.Point(65, 230);
-            this.radioButtonDigital7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonDigital7.Location = new System.Drawing.Point(49, 187);
             this.radioButtonDigital7.Name = "radioButtonDigital7";
-            this.radioButtonDigital7.Size = new System.Drawing.Size(76, 20);
+            this.radioButtonDigital7.Size = new System.Drawing.Size(63, 17);
             this.radioButtonDigital7.TabIndex = 3;
             this.radioButtonDigital7.TabStop = true;
             this.radioButtonDigital7.Text = "Digital 7";
@@ -704,10 +655,9 @@
             // 
             this.radioButtonDigital6.AutoCheck = false;
             this.radioButtonDigital6.AutoSize = true;
-            this.radioButtonDigital6.Location = new System.Drawing.Point(65, 188);
-            this.radioButtonDigital6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonDigital6.Location = new System.Drawing.Point(49, 153);
             this.radioButtonDigital6.Name = "radioButtonDigital6";
-            this.radioButtonDigital6.Size = new System.Drawing.Size(76, 20);
+            this.radioButtonDigital6.Size = new System.Drawing.Size(63, 17);
             this.radioButtonDigital6.TabIndex = 2;
             this.radioButtonDigital6.TabStop = true;
             this.radioButtonDigital6.Text = "Digital 6";
@@ -717,10 +667,9 @@
             // 
             this.radioButtonDigital5.AutoCheck = false;
             this.radioButtonDigital5.AutoSize = true;
-            this.radioButtonDigital5.Location = new System.Drawing.Point(65, 146);
-            this.radioButtonDigital5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonDigital5.Location = new System.Drawing.Point(49, 119);
             this.radioButtonDigital5.Name = "radioButtonDigital5";
-            this.radioButtonDigital5.Size = new System.Drawing.Size(76, 20);
+            this.radioButtonDigital5.Size = new System.Drawing.Size(63, 17);
             this.radioButtonDigital5.TabIndex = 1;
             this.radioButtonDigital5.TabStop = true;
             this.radioButtonDigital5.Text = "Digital 5";
@@ -729,10 +678,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::SerialCommunication.Properties.Resources.digital_in;
-            this.pictureBox3.Location = new System.Drawing.Point(227, 21);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(170, 17);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(845, 430);
+            this.pictureBox3.Size = new System.Drawing.Size(634, 349);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -741,11 +689,10 @@
             // 
             this.tabPageOefening4.Controls.Add(this.labelAnalog0);
             this.tabPageOefening4.Controls.Add(this.pictureBox4);
-            this.tabPageOefening4.Location = new System.Drawing.Point(4, 25);
-            this.tabPageOefening4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageOefening4.Location = new System.Drawing.Point(4, 22);
             this.tabPageOefening4.Name = "tabPageOefening4";
-            this.tabPageOefening4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPageOefening4.Size = new System.Drawing.Size(1037, 484);
+            this.tabPageOefening4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPageOefening4.Size = new System.Drawing.Size(776, 391);
             this.tabPageOefening4.TabIndex = 4;
             this.tabPageOefening4.Text = "Oefening 4";
             this.tabPageOefening4.UseVisualStyleBackColor = true;
@@ -753,10 +700,9 @@
             // labelAnalog0
             // 
             this.labelAnalog0.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAnalog0.Location = new System.Drawing.Point(540, 85);
-            this.labelAnalog0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelAnalog0.Location = new System.Drawing.Point(405, 69);
             this.labelAnalog0.Name = "labelAnalog0";
-            this.labelAnalog0.Size = new System.Drawing.Size(160, 62);
+            this.labelAnalog0.Size = new System.Drawing.Size(120, 50);
             this.labelAnalog0.TabIndex = 1;
             this.labelAnalog0.Text = "1023";
             this.labelAnalog0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -764,10 +710,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::SerialCommunication.Properties.Resources.analog_in;
-            this.pictureBox4.Location = new System.Drawing.Point(33, 22);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(25, 18);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(845, 430);
+            this.pictureBox4.Size = new System.Drawing.Size(634, 349);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
@@ -779,11 +724,10 @@
             this.tabPageOefening5.Controls.Add(this.labelGewensteTemp);
             this.tabPageOefening5.Controls.Add(this.label9);
             this.tabPageOefening5.Controls.Add(this.pictureBox5);
-            this.tabPageOefening5.Location = new System.Drawing.Point(4, 25);
-            this.tabPageOefening5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPageOefening5.Location = new System.Drawing.Point(4, 22);
             this.tabPageOefening5.Name = "tabPageOefening5";
-            this.tabPageOefening5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPageOefening5.Size = new System.Drawing.Size(1037, 484);
+            this.tabPageOefening5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPageOefening5.Size = new System.Drawing.Size(776, 391);
             this.tabPageOefening5.TabIndex = 5;
             this.tabPageOefening5.Text = "Oefening 5";
             this.tabPageOefening5.UseVisualStyleBackColor = true;
@@ -791,10 +735,9 @@
             // labelHuidigeTemp
             // 
             this.labelHuidigeTemp.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHuidigeTemp.Location = new System.Drawing.Point(823, 330);
-            this.labelHuidigeTemp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelHuidigeTemp.Location = new System.Drawing.Point(617, 268);
             this.labelHuidigeTemp.Name = "labelHuidigeTemp";
-            this.labelHuidigeTemp.Size = new System.Drawing.Size(133, 28);
+            this.labelHuidigeTemp.Size = new System.Drawing.Size(100, 23);
             this.labelHuidigeTemp.TabIndex = 4;
             this.labelHuidigeTemp.Text = "20,2 °C";
             this.labelHuidigeTemp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -803,20 +746,18 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(617, 334);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(463, 271);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(166, 20);
+            this.label11.Size = new System.Drawing.Size(134, 16);
             this.label11.TabIndex = 3;
             this.label11.Text = "Huidige Temperatuur";
             // 
             // labelGewensteTemp
             // 
             this.labelGewensteTemp.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelGewensteTemp.Location = new System.Drawing.Point(823, 293);
-            this.labelGewensteTemp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelGewensteTemp.Location = new System.Drawing.Point(617, 238);
             this.labelGewensteTemp.Name = "labelGewensteTemp";
-            this.labelGewensteTemp.Size = new System.Drawing.Size(133, 28);
+            this.labelGewensteTemp.Size = new System.Drawing.Size(100, 23);
             this.labelGewensteTemp.TabIndex = 2;
             this.labelGewensteTemp.Text = "21,0 °C";
             this.labelGewensteTemp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -825,20 +766,18 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(617, 297);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(463, 241);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 20);
+            this.label9.Size = new System.Drawing.Size(147, 16);
             this.label9.TabIndex = 1;
             this.label9.Text = "Gewenste Temperatuur";
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::SerialCommunication.Properties.Resources.thermostat;
-            this.pictureBox5.Location = new System.Drawing.Point(32, 22);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(24, 18);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(845, 431);
+            this.pictureBox5.Size = new System.Drawing.Size(634, 350);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
@@ -848,32 +787,30 @@
             this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.labelStatus});
-            this.statusStrip.Location = new System.Drawing.Point(0, 587);
+            this.statusStrip.Location = new System.Drawing.Point(0, 473);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip.Size = new System.Drawing.Size(1077, 22);
+            this.statusStrip.Size = new System.Drawing.Size(808, 22);
             this.statusStrip.TabIndex = 10;
             this.statusStrip.Text = "statusStrip1";
             // 
             // labelStatus
             // 
             this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(0, 16);
+            this.labelStatus.Size = new System.Drawing.Size(0, 17);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1077, 609);
+            this.ClientSize = new System.Drawing.Size(808, 495);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.radioButtonVerbonden);
             this.Controls.Add(this.buttonConnect);
             this.Controls.Add(this.labelPoort);
             this.Controls.Add(this.comboBoxPoort);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
-            this.Text = "BZL seriële communicatie";
+            this.Text = "BZL seriële communicatie Lenz Wijmeersch";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl.ResumeLayout(false);
             this.tabPageInstellingen.ResumeLayout(false);
