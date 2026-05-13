@@ -93,6 +93,8 @@ namespace SerialCommunication
                     serialPort.Open();
 
                     buttonConnect.Text = "Disconnect";
+                    // Update UI indicator
+                    try { radioButtonVerbonden.Checked = true; } catch { }
                 }
                 else
                 {
@@ -100,10 +102,12 @@ namespace SerialCommunication
                     try { serialPort.Dispose(); } catch { }
                     serialPort = null;
                     buttonConnect.Text = "Connect";
+                    try { radioButtonVerbonden.Checked = false; } catch { }
                 }
             }
             catch (Exception ex)
             {
+                try { radioButtonVerbonden.Checked = false; } catch { }
                 MessageBox.Show("Kan geen seriële verbinding maken: " + ex.Message);
             }
         }
@@ -192,7 +196,8 @@ namespace SerialCommunication
                     // try next command
                 }
             }
-n            throw new TimeoutException("Geen geldige analoge waarde ontvangen van kanaal " + channel);
+
+             throw new TimeoutException("Geen geldige analoge waarde ontvangen van kanaal " + channel);
         }
 
         private void SetDigital(int pin, bool on)
