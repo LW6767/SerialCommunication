@@ -70,7 +70,7 @@ namespace SerialCommunication
 
         private void buttonConnect_Click(object sender, EventArgs e)
         {
-            // Open or close serial connection
+            // Robust open/close for serial connection (works with Arduino Leonardo)
             try
             {
                 if (serialPort == null || !serialPort.IsOpen)
@@ -86,31 +86,40 @@ namespace SerialCommunication
                     if (comboBoxBaudrate.SelectedItem != null)
                         int.TryParse(comboBoxBaudrate.SelectedItem.ToString(), out baud);
 
-                    serialPort = new SerialPort(port, baud);
-                    serialPort.NewLine = "\n";
-                    serialPort.ReadTimeout = 500;
-                    serialPort.WriteTimeout = 500;
+                    // Create and configure port. For Leonardo avoid toggling DTR before open to prevent unwanted reset.
+                    serialPort = new SerialPort(port, baud)
+                    {
+                        NewLine = "\n",
+                        ReadTimeout = 500,
+                        WriteTimeout = 500,
+                        DtrEnable = false,
+                        RtsEnable = false
+                    };
+
                     serialPort.Open();
 
+                    // Update UI and disable port selection while connected
+                    UpdateConnectionUI(true);
                     buttonConnect.Text = "Disconnect";
-                    // Update UI indicator
-                    try { radioButtonVerbonden.Checked = true; } catch { }
                 }
                 else
                 {
-                    try { serialPort.Close(); } catch { }
-                    try { serialPort.Dispose(); } catch { }
-                    serialPort = null;
-                    buttonConnect.Text = "Connect";
-                    try { radioButtonVerbonden.Checked = false; } catch { }
-                }
-            }
-            catch (Exception ex)
-            {
-                try { radioButtonVerbonden.Checked = false; } catch { }
-                MessageBox.Show("Kan geen seriële verbinding maken: " + ex.Message);
-            }
-        }
+                    // Explicitly stop timer and ensure clean close/dispose
+                    try
+                    {
+                        if (timerOefening5 != null && timerOefening5.Enabled)
+                            timerOefening5.Stop();
+                    }
+                    catch { }
+                    try                    {                        if (serialPort != null)                        {                            if (serialPort.IsOpen)                            {                                try { serialPort.DiscardInBuffer(); } catch { }                                serialPort.Close();                            }                            try { serialPort.Dispose(); } catch { }                        }                    }                    catch (Exception exClose)                    {                        Console.WriteLine("Fout bij sluiten seriële poort: " + exClose.Message);                    }                    finally                    {                        serialPort = null;                        UpdateConnectionUI(false);                        buttonConnect.Text = "Connect";                    }                }            }            catch (Exception ex)            {                UpdateConnectionUI(false);                MessageBox.Show("Kan geen seriële verbinding maken: " + ex.Message);            }        }
+
+        private void UpdateConnectionUI(bool connected)
+        {
+            try { radioButtonVerbonden.Checked = connected; } catch { }
+            try { comboBoxPoort.Enabled = !connected; } catch { }
+            try { comboBoxBaudrate.Enabled = !connected; } catch { }
+            // If disconnected, ensure timer doesn't run
+            if (!connected)            {                try { if (timerOefening5 != null) timerOefening5.Stop(); } catch { }            }        }
 
         private void TabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
